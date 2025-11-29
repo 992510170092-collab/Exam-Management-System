@@ -34,6 +34,7 @@ Teacher Dashboard (Manage Questions/Students)
 2.2.1 Tables Structure
 
 USERS Table:
+
 <img width="601" height="259" alt="image" src="https://github.com/user-attachments/assets/09494821-5c04-409a-bd8b-26d3a8314035" />
 
 
