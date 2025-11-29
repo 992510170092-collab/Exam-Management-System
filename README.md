@@ -34,39 +34,16 @@ Teacher Dashboard (Manage Questions/Students)
 2.2.1 Tables Structure
 
 USERS Table:
-+-------------+-------------+------+-----+---------+----------------+
-| Field       | Type        | Null | Key | Default | Extra          |
-+-------------+-------------+------+-----+---------+----------------+
-| id          | int         | NO   | PRI | NULL    | auto_increment |
-| full_name   | varchar(100)| NO   |     | NULL    |                |
-| username    | varchar(50) | NO   | UNI | NULL    |                |
-| email       | varchar(100)| NO   |     | NULL    |                |
-| password    | varchar(100)| NO   |     | NULL    |                |
-| user_type   | varchar(20) | NO   |     | NULL    |                |
-+-------------+-------------+------+-----+---------+----------------+
+<img width="601" height="259" alt="image" src="https://github.com/user-attachments/assets/09494821-5c04-409a-bd8b-26d3a8314035" />
+
 
 QUESTIONS Table:
-+----------------+--------------+------+-----+---------+----------------+
-| Field          | Type         | Null | Key | Default | Extra          |
-+----------------+--------------+------+-----+---------+----------------+
-| id             | int          | NO   | PRI | NULL    | auto_increment |
-| question_text  | text         | NO   |     | NULL    |                |
-| option1        | varchar(255) | NO   |     | NULL    |                |
-| option2        | varchar(255) | NO   |     | NULL    |                |
-| option3        | varchar(255) | NO   |     | NULL    |                |
-| option4        | varchar(255) | NO   |     | NULL    |                |
-| correct_option | int          | NO   |     | NULL    |                |
-+----------------+--------------+------+-----+---------+----------------+
+
+<img width="645" height="280" alt="image" src="https://github.com/user-attachments/assets/a5d77a33-a411-4541-9b4a-fbc1b75a07fb" />
 
 QUIZ_RESULTS Table:
-+-------------+---------+------+-----+---------+----------------+
-| Field       | Type    | Null | Key | Default | Extra          |
-+-------------+---------+------+-----+---------+----------------+
-| id          | int     | NO   | PRI | NULL    | auto_increment |
-| user_id     | int     | NO   | MUL | NULL    |                |
-| score       | int     | NO   |     | NULL    |                |
-| created_at  | timestamp | YES |     | CURRENT |                |
-+-------------+---------+------+-----+---------+----------------+
+
+<img width="556" height="195" alt="image" src="https://github.com/user-attachments/assets/a2a2a09c-eb2d-47f2-a0d7-f751af2c13b1" />
 
 3. MODULE DESCRIPTION
 
